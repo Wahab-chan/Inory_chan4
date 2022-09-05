@@ -714,16 +714,18 @@ exports.notNum = (q) => {
     return `"${q}", bukan angka!`
 }
 exports.menunya = (salam, pushname, botname) =>{
-	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp.
+	return`ʜᴀɪ.ᴀᴋᴜ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ʏᴀɴɢ ᴅɪʙᴇʀɪ ɴᴀᴍᴀ ᴢᴇʀᴏ,ᴀᴋᴜ ᴅɪ ᴋᴇᴍʙᴀɴɢᴋᴀɴ ᴏʟᴇʜ sᴇsᴇᴏʀᴀɴɢ ʏᴀɴɢ ʙᴇʀɴᴀᴍᴀ ᴡᴀʜᴀʙ,ʙᴇʟᴀᴜ ᴍᴀsɪʜ ᴘᴇᴍᴜʟᴀ ᴅᴀɴ ᴍᴀsɪʜ ʙᴇʟᴀᴊᴀʀ ʙᴀɴʏᴀᴋ ʜᴀʟ,
+sɪʟᴀᴋᴀɴ ᴋᴇᴛɪᴋ ᴍᴇɴᴜ ᴜɴᴛᴜᴋ ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ᴍᴇɴᴜ ʙᴏᴛ
+
+ᴛɪᴍᴇ:${time}*
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
-    return `*Selamat ${salam} ${pushname}*
-*⌚Time Server : ${time}*
-*📚 List-Menu Bot :*
+    return `*sᴇʟᴀᴍᴀᴛ ${salam} ${pushname}*
+*⌚ᴛɪᴍᴇ sᴇʀᴠᴇʀ : ${time}*
+*📚 ʟɪsᴛ-ᴍᴇɴᴜ ʙᴏᴛ :*
 
-╭─❒ 「 Bot Info 」 
+╭─❒ 「 ʙᴏᴛ ɪɴғᴏ 」 
 │○ !owner
 │○ !rules
 │○ !sc
@@ -1707,19 +1709,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !sound68
 │○ !sound69
 ╰❒ !sound70
-
-╭─❒ 「 TqTo 」 
-│○ My God
-│○ My Parents
-│○ Fatih A.
-│○ Ferdi
-│○ DikaArdnt
-│○ Mhankbarbar
-│○ Nurutomo
-│○ Rashid
-│○ ZeeoneOfc
-│○ Penyedia Module
-╰❒ And All Support
     `
 }
 
@@ -1734,14 +1723,13 @@ exports.rules = (prefix) => {
 🗯️ Bot tidak atau lambat merespon ?
 ➡️ Mungkin dipengaruhi oleh jaringan, signal, banned oleh Whatsapp dan beberapa asalan.
 
-🗯️ Dimana saya bisa mendapatkan Script dari bot ini ?
-➡️ Script ini bisa kalian dapatkan di YouTube ZEEONE OFC
-
 🗯️ Boleh saya menambah ke grup?
 ➡️ Untuk itu tergantung dari owner bot sendiri
 
 🗯️ Prefixnya apa ya?
 ➡️ Bot ini menggunakan multi prefix & bisa kamu gunakan tanpa prefix
+
+ᴀᴘᴀ ʙɪʟᴀ ᴀᴅᴀ sᴇsᴇᴏʀᴀɴɢ ᴍᴇɴᴄᴜʀɪ/ᴍᴇᴍᴀsᴜᴋᴀɴ ʙᴏᴛ ᴋᴇ ɢʀᴜᴘ ᴛᴀɴᴘᴀ sᴇᴘᴇɴɢᴇᴛᴀʜᴜᴀɴ ᴏᴡɴᴇʀ ᴀᴋᴀɴ ᴅɪ ʙʟᴏᴋɪʀ（￣へ￣）
 
 Jika sudah dipahami rules-nya, silakan ketik *${prefix}menu* untuk memulai!
 
@@ -1766,8 +1754,8 @@ Goodbye`
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
-Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://youtube.com/playlist?list=PLFCglBzFPHG7vSQaa9S3P8yfla_d9w-2-
+ᴄᴀʀɪ ᴀᴘᴀ ᴋᴀᴋ sᴄ ɪɴɪ ᴘʀɪᴠᴇᴛ ʏᴀᴀ
+
 `
 }
 exports.tos = (ownernomer) => {
@@ -2428,16 +2416,9 @@ return`╭─❒ 「 Random Cewe 」
 
 exports.tqto = () =>{
 	return`╭─❒ 「 TqTo 」 
-│○ My God
-│○ My Parents
-│○ Fatih A.
-│○ Ferdi
-│○ DikaArdnt
-│○ Mhankbarbar
-│○ Nurutomo
-│○ Rashid
-│○ ZeeoneOfc
-│○ Penyedia Module
+│○ ᴡᴀʜᴀʙ ᴀᴛᴀʀɪᴀɴᴜs
+│○ ɪɴᴏʀʏ-ᴄʜᴀɴ
+│○ ʏᴀᴇʟ ᴛᴏᴍʙɪ
 ╰❒ And All Support
 `
 }
