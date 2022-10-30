@@ -1,3 +1,4 @@
+exports.serverErr = `Server sedang eror`
 exports.limitLu = (m) =>{
 	return`Sisa limit kamu : ${m} `
 	}
@@ -95,7 +96,7 @@ exports.UmurXReg = () =>{
 	return`Umur kamu terlalu tua, bukannya mati ehh malah main bot`
 	}
 exports.firstChat = (a, b, c) =>{
-	return`Selamat ${a} ${b} 🤗, saya adalah ${c} yaitu bot whatsapp. Ada yang bisa ${c} bantu?`
+	return`ʜᴀɪ,ᴀᴋᴜ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ʏᴀɴɢ ᴅɪʙᴇʀɪ ɴᴀᴍᴀ ᴢᴇʀᴏ ʙᴏᴛ,ᴀᴋᴜ ᴅɪ ᴋᴇᴍʙᴀɴɢᴋᴀɴ ᴏʟᴇʜ ꜱᴇꜱᴇᴏʀᴀɴɢ ʏᴀɴɢ ʙᴇʀɴᴀᴍᴀ ᴡᴀʜᴀʙ ᴅᴀɴ ɪɴᴏʀʏ,ʙᴇʟɪᴀᴜ ᴍᴀꜱɪʜ ᴘᴇᴍᴜʟᴀ ᴅᴀɴ ᴍᴀꜱɪʜ ʙᴇʟᴀᴊᴀʀ ʙᴀɴʏᴀᴋ ʜᴀʟ,ᴅᴀɴ ᴛᴜᴊᴜᴀɴɴʏᴀ ʜᴀɴʏᴀ ɪɴɢɪɴ ᴛᴀᴜ ʙᴇʀʙᴀɢᴀɪ ʜᴀʟ ʏᴀɴɢ ᴀᴅᴀ ᴅɪᴅᴜɴɪᴀ ʙᴏᴛ,ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ꜰɪᴛᴜʀ ʙᴏᴛ,ꜱɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ʙᴜᴛᴛᴏɴ ᴅɪʙᴀᴡᴀʜ\n\nɴᴏᴛᴇ: ʜᴀʀᴀᴘ ɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ꜱᴇᴄᴀʀᴀ ʙɪᴊᴀᴋ ᴅᴀɴ ᴊᴀɴɢᴀɴ ᴅɪꜱᴘᴀᴍ`
 	}
 exports.StartAbsen = () =>{
 	return`Mulai Absen`
@@ -714,18 +715,16 @@ exports.notNum = (q) => {
     return `"${q}", bukan angka!`
 }
 exports.menunya = (salam, pushname, botname) =>{
-	return`ʜᴀɪ.ᴀᴋᴜ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ʏᴀɴɢ ᴅɪʙᴇʀɪ ɴᴀᴍᴀ ᴢᴇʀᴏ,ᴀᴋᴜ ᴅɪ ᴋᴇᴍʙᴀɴɢᴋᴀɴ ᴏʟᴇʜ sᴇsᴇᴏʀᴀɴɢ ʏᴀɴɢ ʙᴇʀɴᴀᴍᴀ ᴡᴀʜᴀʙ,ʙᴇʟᴀᴜ ᴍᴀsɪʜ ᴘᴇᴍᴜʟᴀ ᴅᴀɴ ᴍᴀsɪʜ ʙᴇʟᴀᴊᴀʀ ʙᴀɴʏᴀᴋ ʜᴀʟ,
-sɪʟᴀᴋᴀɴ ᴋᴇᴛɪᴋ ᴍᴇɴᴜ ᴜɴᴛᴜᴋ ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ᴍᴇɴᴜ ʙᴏᴛ
-
-ᴛɪᴍᴇ:${time}*
+	return`Hai kak ${pushname} 👋 selamat ${salam} , 
+saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp.
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
-    return `*sᴇʟᴀᴍᴀᴛ ${salam} ${pushname}*
-*⌚ᴛɪᴍᴇ sᴇʀᴠᴇʀ : ${time}*
-*📚 ʟɪsᴛ-ᴍᴇɴᴜ ʙᴏᴛ :*
+    return `*Selamat ${salam} ${pushname}*
+*⌚Time Server : ${time}*
+*📚 List-Menu Bot :*
 
-╭─❒ 「 ʙᴏᴛ ɪɴғᴏ 」 
+╭─❒ 「 Bot Info 」 
 │○ !owner
 │○ !rules
 │○ !sc
@@ -806,6 +805,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ !done
 
 ╭─❒ 「 Anonymous 」
+│○ !menfess
 │○ !anonymous 
 │○ !start
 │○ !skip [daerah]
@@ -870,6 +870,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╭─❒ 「 Group 」 
 │○ !addsewa
 │○ !delsewa
+│○ !listsewa
+│○ !ceksewa
 │○ !register
 │○ !unregister
 │○ !ceksn
@@ -944,6 +946,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !wattpad [query]
 │○ !webtoons [query]
 │○ !drakor [query]
+│○ !brainly [query]
 ╰❒ !pinterest [query]
 
 
@@ -1729,8 +1732,6 @@ exports.rules = (prefix) => {
 🗯️ Prefixnya apa ya?
 ➡️ Bot ini menggunakan multi prefix & bisa kamu gunakan tanpa prefix
 
-ᴀᴘᴀ ʙɪʟᴀ ᴀᴅᴀ sᴇsᴇᴏʀᴀɴɢ ᴍᴇɴᴄᴜʀɪ/ᴍᴇᴍᴀsᴜᴋᴀɴ ʙᴏᴛ ᴋᴇ ɢʀᴜᴘ ᴛᴀɴᴘᴀ sᴇᴘᴇɴɢᴇᴛᴀʜᴜᴀɴ ᴏᴡɴᴇʀ ᴀᴋᴀɴ ᴅɪ ʙʟᴏᴋɪʀ（￣へ￣）
-
 Jika sudah dipahami rules-nya, silakan ketik *${prefix}menu* untuk memulai!
 
 ⚠️ Segala kebijakan dan ketentuan bot dapat berubah kapan saja 
@@ -1754,20 +1755,23 @@ Goodbye`
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
-ᴄᴀʀɪ ᴀᴘᴀ ᴋᴀᴋ sᴄ ɪɴɪ ᴘʀɪᴠᴇᴛ ʏᴀᴀ
-
+Beli sendiri lah🗿
 `
 }
 exports.tos = (ownernomer) => {
     return `
-*-------「 DONATE 」 -------*
-
-Hai kak ☺️ 
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan cara donasi
-
-Berapapun donasi kalian akan sangat berarti 👍
-Buat kalian yang sudah donasi bisa kirim bukti
-donasi ke owner agar bisa di masukkan ke list donasi
+*-------「 SEWA DAN DONA 」 -------*
+│Hai kak ☺️ 
+├ 5K PERMINGGU
+├ 10K PERBULAN
+├ 20K PERTAHUN
+├ 35K PERMANEN
+│
+├ OWNER JUGA JUAL NOMKOS +1
+├ DAN BISA JUGA BERDONASI 
+├ BERAPA PUN DONASINYA ITU
+├ SANGAT DI HARGAI
+│
 
 Thanks!
 
@@ -1854,6 +1858,9 @@ exports.group = (prefix) =>{
 	return`╭─❒ 「 Group 」 
 │○ !addsewa
 │○ !delsewa
+│○ !listsewa
+│○ !ceksewa
+│○ !delsewa
 │○ !register
 │○ !unregister
 │○ !ceksn
@@ -1935,6 +1942,7 @@ exports.search = (prefix) =>{
 │○ !wattpad [query]
 │○ !webtoons [query]
 │○ !drakor [query]
+│○ !brainly [query]
 ╰❒ !pinterest [query]
 `}
 
@@ -2416,9 +2424,16 @@ return`╭─❒ 「 Random Cewe 」
 
 exports.tqto = () =>{
 	return`╭─❒ 「 TqTo 」 
-│○ ᴡᴀʜᴀʙ ᴀᴛᴀʀɪᴀɴᴜs
-│○ ɪɴᴏʀʏ-ᴄʜᴀɴ
-│○ ʏᴀᴇʟ ᴛᴏᴍʙɪ
+│○ My God
+│○ My Parents
+│○ Fatih A.
+│○ Ferdi
+│○ DikaArdnt
+│○ Mhankbarbar
+│○ Nurutomo
+│○ Rashid
+│○ ZeeoneOfc
+│○ Penyedia Module
 ╰❒ And All Support
 `
 }
@@ -2657,6 +2672,7 @@ exports.islammenu = (prefix) =>{
 }
 exports.anonchat = (prefix) =>{
 	return`╭─❒ 「 Anonymous 」
+│○ !menfess
 │○ !anonymous 
 │○ !start
 │○ !skip [daerah]
